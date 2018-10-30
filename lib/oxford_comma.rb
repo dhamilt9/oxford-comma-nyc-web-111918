@@ -7,7 +7,7 @@ def oxford_comma(array)
       if index!=0
         returnstring=returnstring<<", "
       end
-      if index==array.size
+      if index+1==array.size
         returnstring=returnstring<<"and "
       end
       returnstring=returnstring<<item
