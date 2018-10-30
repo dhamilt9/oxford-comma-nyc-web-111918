@@ -6,6 +6,7 @@ def oxford_comma(array)
     array.each_with_index do |item, index|
       if index!=0
         returnstring=returnstring<<", "
+      end
       if index==array.size
         returnstring=returnstring<<"and "
       end
