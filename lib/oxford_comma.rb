@@ -12,5 +12,6 @@ def oxford_comma(array)
       end
       returnstring=returnstring<<item
     end
+    return returnstring
   end
 end
